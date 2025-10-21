@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beautiful Weather Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <h2>🌦️ My Cities</h2>
+      <div id="cityList" class="city-list"></div>
+    </aside>
+
+    <main class="main">
+      <h1>Weather Dashboard</h1>
+      <p>Get live weather updates for your city.</p>
+
+      <div class="input-group">
+        <input type="text" id="cityInput" placeholder="Enter city name..." />
+        <button id="addCity">Add City</button>
+      </div>
+
+      <div id="currentWeather" class="weather-display"></div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
